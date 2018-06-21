@@ -1,0 +1,59 @@
+HETATM    1  C01 PRD     0       6.087   6.440  -0.378  0.00  0.00           C  
+HETATM    2  C02 PRD     0       6.029   4.913  -0.212  0.00  0.00           C  
+HETATM    3  C03 PRD     0       8.497   4.622  -0.226  0.00  0.00           C  
+HETATM    4  C04 PRD     0       7.176   4.142  -0.813  0.00  0.00           C  
+HETATM    5  C05 PRD     0       8.682   6.145  -0.365  0.00  0.00           C  
+HETATM    6  C06 PRD     0      12.360   6.920   0.523  0.00  0.00           C  
+HETATM    7  C07 PRD     0      11.287   5.943  -0.006  0.00  0.00           C  
+HETATM    8  C08 PRD     0       7.691   8.462   0.256  0.00  0.00           C  
+HETATM    9  O09 PRD     0       7.544   9.022  -1.041  0.00  0.00           O  
+HETATM   10  C10 PRD     0       4.921   7.110   0.341  0.00  0.00           C  
+HETATM   11  C11 PRD     0       5.057   4.271   0.462  0.00  0.00           C  
+HETATM   12  C12 PRD     0       3.955   6.470   1.013  0.00  0.00           C  
+HETATM   13  C13 PRD     0       3.951   4.999   1.116  0.00  0.00           C  
+HETATM   14  O14 PRD     0       3.069   4.406   1.724  0.00  0.00           O  
+HETATM   15  H15 PRD     0       8.767   6.366  -1.434  0.00  0.00           H  
+HETATM   16  C16 PRD     0      10.247   8.110   0.203  0.00  0.00           C  
+HETATM   17  C17 PRD     0      10.448   8.545  -1.273  0.00  0.00           C  
+HETATM   18  C18 PRD     0       9.958   6.600   0.357  0.00  0.00           C  
+HETATM   19  C19 PRD     0       5.915   6.767  -1.879  0.00  0.00           C  
+HETATM   20  C20 PRD     0       9.063   8.870   0.837  0.00  0.00           C  
+HETATM   21  H21 PRD     0       9.796   6.381   1.426  0.00  0.00           H  
+HETATM   22  C22 PRD     0      13.526   9.642  -0.144  0.00  0.00           C  
+HETATM   23  O23 PRD     0      11.967  10.526   1.449  0.00  0.00           O  
+HETATM   24  O24 PRD     0      13.922  10.994  -0.333  0.00  0.00           O  
+HETATM   25  C25 PRD     0      12.335   9.538   0.797  0.00  0.00           C  
+HETATM   26  C26 PRD     0      11.605   8.195   0.966  0.00  0.00           C  
+HETATM   27  O   PRD     0      11.383   8.065   2.384  0.00  0.00           O  
+HETATM   28  C   PRD     0       7.458   6.921   0.238  0.00  0.00           C  
+HETATM   29  H   PRD     0       7.427   6.636   1.304  0.00  0.00           H  
+CONECT    1    2   10   19   28
+CONECT    2    1   11    4
+CONECT    3    4    5
+CONECT    4    3    2
+CONECT    5    3   15   28   18
+CONECT    6    7   26
+CONECT    7    6   18
+CONECT    8    9   20   28
+CONECT    9    8
+CONECT   10    1   12
+CONECT   11    2   13
+CONECT   12   10   13
+CONECT   13   11   12   14
+CONECT   14   13
+CONECT   15    5
+CONECT   16   17   20   26   18
+CONECT   17   16
+CONECT   18    5    7   16   21
+CONECT   19    1
+CONECT   20    8   16
+CONECT   21   18
+CONECT   22   24   25
+CONECT   23   25
+CONECT   24   22
+CONECT   25   22   23   26
+CONECT   26   16    6   25   27
+CONECT   27   26
+CONECT   28    5    1    8   29
+CONECT   29   28
+END
